@@ -1,0 +1,33 @@
+/* Style the file input wrapper */
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  /* Hide the actual file input */
+  .file-input-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  
+  /* Style the custom button */
+  .file-upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #000; /* Match your form styling */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* You can add :hover or :active styles for the button if desired */
+  .file-upload-button:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  

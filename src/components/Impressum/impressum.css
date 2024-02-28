@@ -1,0 +1,39 @@
+.impressum {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .impressum h2 {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    margin-bottom: 20px;
+  }
+  
+  .section-content h3 {
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .section-content p,
+  .section-content a {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .source {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .source a {
+    color: #666;
+  }
+  

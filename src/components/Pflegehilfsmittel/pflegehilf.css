@@ -1,0 +1,89 @@
+.pflegehilf-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .pflegehilf-section {
+    flex: 1;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .pflegehilf-section:last-child {
+    margin-right: 0;
+  }
+  
+  .pflegehilf-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .pflegehilf-section h1 {
+    color: #D0021B; /* Or your chosen color */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pflegehilf-section h2 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .pflegehilf-section h3 {
+    margin-left: 5px; /* Spacing after the icon */
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: normal;
+  }
+  
+  .pflegehilf-item .icon {
+    color: #D0021B; /* Or your chosen color */
+    font-size: 24px; /* Or your chosen size */
+  }
+  
+  .pflegehilf-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .heart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #D0021B
+  }
+
+  /* ... other styles remain the same ... */
+
+.illustration-section {
+    /* If you want the image to be smaller only in this section */
+    flex: none; /* Override the flex property if needed */
+    max-width: 50%; /* Adjust this value as needed to control the width of the illustration section */
+    padding: 10px; /* Add padding if needed */
+  }
+  
+  .pflegehilf-illustration {
+    width: 100%; /* This will make the image responsive to the size of its container */
+    height: auto; /* This will maintain the aspect ratio of the image */
+    max-width: 700px; /* Adjust this value to control the max size of the image */
+    display: block; /* Images are inline by default, which could affect centering */
+    margin: 0 auto; /* This will center the image in its container */
+  }
+  
+  .heart-icon {
+    /* Adjust your heart icon if necessary */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #D0021B; /* Red color */
+  }
+  
+  /* Add your existing styles below */
+  

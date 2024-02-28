@@ -1,0 +1,71 @@
+.care-services-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .care-services-section {
+    flex: 1;
+  }
+  
+  .care-services-section h1 {
+    color: #D0021B;
+    margin-bottom: 10px;
+  }
+  
+  .care-services-section p, .care-services-section span {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .care-services-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .care-services-list .icon {
+    color: #D0021B;
+    font-size: 24px;
+  }
+  
+  .red {
+    color: #D0021B;
+  }
+  
+  .care-services-contact a {
+    color: #D0021B;
+    text-decoration: none;
+  }
+  
+  .care-services-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .heart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #D0021B;
+    font-size: 36px;
+  }
+
+  .care-services-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 500px; /* Maximum width, adjust as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Aligns the image properly with margin */
+    margin-top: 100px; /* Center the image within its container */
+  }
+  
+  @media (max-width: 768px) {
+    .care-services-container {
+      flex-direction: column;
+    }
+  }
+  

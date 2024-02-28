@@ -1,0 +1,74 @@
+.care-requirements {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .care-requirements-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #D0021B; /* Or the color of your choice */
+  }
+  
+  .care-requirements h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+
+  .care-requirements li .list-icon {
+    color: #D0021B; /* Red color for the list icons */
+    margin-right: 8px;
+    font-size: 24px; /* Larger size for the icons */
+  }
+  
+  .care-requirements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .care-requirements p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .care-requirements ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .care-requirements li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .care-requirements li::before {
+    content: '\f00c'; /* FontAwesome check icon */
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    color: #D0021B; /* Or the color of your choice */
+}
+  
+  .care-requirements a {
+    color: #D0021B; /* Or the color of your choice */
+    text-decoration: none;
+  }
+  
+  .care-requirements a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Icons from FontAwesome */
+  .care-requirements svg {
+    margin-right: 8px;
+  }
+  
+  /* Back component might already have its own styles */
+  

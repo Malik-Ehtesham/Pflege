@@ -1,0 +1,67 @@
+.Fragen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.fragenContainer {
+  display: flex;
+  max-width: 1200px; 
+  width: 100%;
+  margin-top: 20px; /* Adjust space between the header and the content */
+}
+
+.fragenContent {
+  padding-left: 20px; /* Spacing inside the content area */
+  border-left: 2px solid #ccc; /* Separator line */
+}
+
+.fragenIntro, .fragenContent {
+  flex: 1;
+}
+
+.frageItem:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.frageItem h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.frageItem p {
+  font-size: 1em;
+}
+
+/* Fragen.css */
+/* ... existing styles ... */
+
+.frageItem h2 {
+  /* Styles for question headings */
+  cursor: pointer; /* Indicates the heading is clickable */
+}
+
+.frageItem h2::after {
+  content: '+'; /* Add a '+' sign after the heading */
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.frageItem.active h2::after {
+  content: '-'; /* Change to a '-' sign for the open question */
+  /* You can replace this with a proper icon or a different character */
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .fragenContainer {
+    flex-direction: column;
+  }
+
+  .fragenIntro, .fragenContent {
+    width: 100%;
+  }
+}

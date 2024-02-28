@@ -1,0 +1,96 @@
+
+  .section-icon {
+    color: #D0021B;
+    margin-right: 10px;
+  }
+  
+  .care-info-section h1 {
+    color: #D0021B;
+    margin-bottom: 10px;
+  }
+  
+  .care-info-section h3 {
+    color: #D0021B;
+    margin-bottom: 5px;
+  }
+
+  .care-info-container {
+    max-width: 900px; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .care-info-section {
+    border-left: 5px solid #D0021B; /* Red border on the left */
+    padding-left: 15px; /* Space between border and text */
+    margin-bottom: 30px; /* Space between sections */
+  }
+  
+  .care-info-section h1 {
+    color: #D0021B; /* Red color for titles */
+    font-size: 24px; /* Larger font size for titles */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .care-info-section p {
+    color: #333; /* Dark grey color for text */
+    line-height: 1.6; /* Space between lines */
+    font-size: 16px; /* Font size for text */
+  }
+  
+
+
+  .check-list {
+      list-style: none; /* Remove default list styling */
+      padding-left: 0; /* Remove default padding */
+    }
+    
+    .check-list li {
+      display: flex; /* Align icon with text */
+      align-items: center; /* Center items vertically */
+      margin-bottom: 10px; /* Space between list items */
+    }
+    
+    .check-icon {
+      color: #D0021B; /* Red color for the icon */
+      margin-right: 10px; /* Space between the icon and text */
+      font-size: 1.5rem; /* Icon size */
+    }
+    
+  
+
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabs button.active {
+    border-bottom: 3px solid #D0021B;
+    background-color: #f8f8f8;
+  }
+  
+  .tabs button:last-child {
+    margin-right: 0;
+  }
+  
+    
+  /* Responsive adjustments as needed */
+  @media (max-width: 768px) {
+    .care-info-container {
+      flex-direction: column;
+    }
+  }
+  

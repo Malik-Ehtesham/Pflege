@@ -18,7 +18,7 @@ const VP = () => {
         <div className="sm:w-5/6">
           <div className=" grid grid-cols-1  lg:grid-cols-2   lg:my-12 pb-12 sm:pb-0">
             <div className="p-4 sm:py-12">
-              <p className="text-3xl font-bold mt-8 mb-12 ">
+              <p className="text-4xl sm:text-5xl font-bold mt-8 mb-12 ">
                 Verhinderungspflege
               </p>
               <div className=" bg-white shadow-2xl p-4 rounded-lg hover:bg-rose-500  transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer hover:text-white">
